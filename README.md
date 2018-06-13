@@ -13,13 +13,11 @@ StringBox.getInstance(this)
 
 
 ### Create Table
-
-ArrayList< String > data = new ArrayList<>();</n>      
-        data.add(COLUMN_NAME); </n>  
-        data.add(COLUMN_GENDER);</n> 
-        data.add(COLUMN_DOB);</n>  
-        StringBox.getInstance(this).createTable(TABLE_NAME, data);
-        
+ArrayList< String > data = new ArrayList<>();</br>      
+        data.add(COLUMN_NAME); </br>
+        data.add(COLUMN_GENDER); </br>
+        data.add(COLUMN_DOB); </br> 
+        StringBox.getInstance(this).createTable(TABLE_NAME, data); </br>
 #### The above code will create a table with 3 columns, Name, Gender and DOB.
 
 
@@ -27,7 +25,6 @@ ArrayList< String > data = new ArrayList<>();</n>
 
 
 ### Create Row
-
 HashMap< String, String > map = new HashMap<>(); </br> 
         map.put(COLUMN_NAME, "Shiva"); </br>  
         map.put(COLUMN_GENDER, "Male"); </br>  
@@ -36,19 +33,16 @@ HashMap< String, String > map = new HashMap<>(); </br>
         map.put(COLUMN_NAME, "Mirna"); </br>  
         map.put(COLUMN_GENDER, "Female"); </br> 
         map.put(COLUMN_DOB, "18/06/1990"); </br> 
-        StringBox.getInstance(this).addRow(TABLE_NAME, map);
-        
-  #### The above code will create two rows of data. One with name Shiva, Male and 26/04/1989 and the other row as Mirna, Female and 18/06/1990
+        StringBox.getInstance(this).addRow(TABLE_NAME, map); </br>
+#### The above code will create two rows of data. One with name Shiva, Male and 26/04/1989 and the other row as Mirna, Female and 18/06/1990
   
   
   
   
   
 ### Get All rows from one Specific Column
-  
-  ArrayList< String > names = StringBox.getInstance(this).getAllRowsFromColumn(TABLE_NAME, COLUMN_NAME);
-    
- #### The above code will get all the rows from column "Name".
+ArrayList< String > names = StringBox.getInstance(this).getAllRowsFromColumn(TABLE_NAME, COLUMN_NAME); </br>
+#### The above code will get all the rows from column "Name".
  
  
  
