@@ -89,9 +89,9 @@ StringBoxUtils.decryptAES("myName", encodedStr)
 #### The above code will decrypt the encodedStr passed using the password and return the decrypted string.
 
 ### Encryption CHARSETS
-StringBoxUtils.CHARSET_UTF8.setEncryptionCharset(StringBoxUtils.CHARSET_UTF8); </br>
+StringBoxUtils.setEncryptionCharset(StringBoxUtils.CHARSET_UTF8); </br>
 or </br>
-StringBoxUtils..CHARSET_UTF8.setEncryptionCharset(StringBoxUtils.CHARSET_UTF16);
+StringBoxUtils.setEncryptionCharset(StringBoxUtils.CHARSET_UTF16);
 #### You can customize your encoding charset using the above lines. UTF-8 or UTF-16
 
 
