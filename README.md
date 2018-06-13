@@ -15,4 +15,4 @@ data.add(COLUMN_NAME);
 data.add(COLUMN_GENDER);
 data.add(COLUMN_DOB);
 StringBox.getInstance(this).createTable(TABLE_NAME, data);
-### The above code will create a table with 3 columns, Name, Gender and DOB.
+#### The above code will create a table with 3 columns, Name, Gender and DOB.
