@@ -4,6 +4,30 @@
 
 ## You can manage all your database operations with this library. Every information will be saved as Strings only in this library. This library can convert your images also to strings. You can use the encryption options also to encrypt your data. Follow the below methods to handle the library methods for your usage
 
+Adding library to project :
+
+Add it in your root build.gradle at the end of repositories:
+
+allprojects {
+
+repositories {
+
+    google()
+
+    jcenter()
+
+    maven { url 'https://jitpack.io' }
+
+}
+}
+
+Add the dependency :
+
+dependencies {
+
+implementation 'com.github.shivaranjan26:Atlas:10.1'
+}
+
 
 ### Create Database
 StringBox.getInstance(this)
