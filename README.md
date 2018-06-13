@@ -6,27 +6,19 @@
 
 Adding library to project :
 
-Add it in your root build.gradle at the end of repositories:
+## Add it in your root build.gradle at the end of repositories:
+allprojects { </br>
+repositories { </br>
+    google() </br>
+    jcenter() </br>
+    maven { url 'https://jitpack.io' } </br>
+} </br>
+} </br>
 
-allprojects {
-
-repositories {
-
-    google()
-
-    jcenter()
-
-    maven { url 'https://jitpack.io' }
-
-}
-}
-
-Add the dependency :
-
-dependencies {
-
-implementation 'com.github.shivaranjan26:Atlas:10.1'
-}
+## Add the dependency :
+dependencies { </br>
+implementation 'com.github.shivaranjan26:StringBox:1.0' </br>
+} </br>
 
 
 ### Create Database
