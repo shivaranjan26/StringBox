@@ -10,7 +10,7 @@ StringBox.getInstance(this)
 
 
 ### Create Table
-ArrayList<String> data = new ArrayList<>();
+ArrayList<String> data = new ArrayList<>(); /n
         data.add(COLUMN_NAME);
         data.add(COLUMN_GENDER);
         data.add(COLUMN_DOB);
